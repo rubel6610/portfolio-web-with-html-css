@@ -1,0 +1,65 @@
+
+body{
+    margin:0;
+}
+
+.menu{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 30px; 
+    background-color: rgb(87, 255, 177);
+    /* margin-bottom: 10px; */
+}
+.menu a{
+    text-decoration: none;
+    padding:10px;
+}
+.menu a:hover{
+    background-color: #ddd;
+    color:black;
+}
+
+.first-section{
+   
+    height: 450px;
+    border-bottom: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.first-section h2,p{
+    font-size: 30px;
+    
+    
+}
+.first-details{
+    width: 50%;
+    margin-left: 5%;
+    color:rgb(59, 59, 115);
+
+}
+.color-highlight{
+    color:rgb(247, 48, 48);
+}
+
+.first-section-img {
+    width: 40%;
+    
+}
+.first-section-img img{
+    width:80%;
+    border-radius: 50%;
+}
+
+.findBtn{
+    color:white;
+    background-color: tomato;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 250px;
+}
